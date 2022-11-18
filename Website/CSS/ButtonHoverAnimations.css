@@ -1,3 +1,10 @@
+:root {
+    --lightcolor1: #fee3ec;
+    --lightcolor2: #f9c5d5;
+    --darkcolor1: #f999b7;
+    --darkcolor2: #f2789f;
+}
+
 /*-----------------------------------------------Hover animation homepage------------------------------------------------------*/
 /*Let's get started button*/
 *,
@@ -31,7 +38,7 @@ button {
     color: #fff;
     border-radius: 25px;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: transparent;
