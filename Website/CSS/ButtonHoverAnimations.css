@@ -3,6 +3,7 @@
     --lightcolor2: #f9c5d5;
     --darkcolor1: #f999b7;
     --darkcolor2: #f2789f;
+    --backgroundcolor: #131315;
 }
 
 /*-----------------------------------------------Hover animation homepage------------------------------------------------------*/
@@ -31,7 +32,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    box-shadow: 0px 4px 4px #df00ff;
+    box-shadow: 0px 4px 4px var(--darkcolor2);
 }
 
 button {
@@ -52,4 +53,22 @@ button {
 button:hover:before {
     opacity: 1;
     transform: translate(0, 0);
+}
+
+/*Login container animation*/
+* {
+    box-sizing: border-box;
+}
+
+.LoginBox {
+    border: 2px solid var(--lightcolor1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25rem;
+    padding: 2.5rem;
+    transform: translate(-50%, -50%);
+    background: var(--backgroundcolor);
+    box-shadow: 0 0.5rem 1rem var(--darkcolor2);
+    border: 0.8rem;
 }
