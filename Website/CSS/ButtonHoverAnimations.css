@@ -70,7 +70,33 @@ button:hover:before {
     transform: translate(-50%, -50%);
     background: var(--backgroundcolor);
     box-shadow: 0 0.5rem 1rem var(--darkcolor2);
-    border: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.LoginBox h2 {
+    margin: 0 0 1.8rem;
+    padding: 0;
+    color: var(--darkcolor1);
+    text-align: center;
+}
+
+.LoginBox .UserBox label {
+    position: relative;
+    left: 0;
+    top: -60%;
+    padding: 0.7rem 0;
+    font-size: 1rem;
+    color: var(--darkcolor1);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.LoginBox .UserBox input:focus-lable,
+.LoginBox .UserBox input:valid-lable {
+    top: -85%;
+    left: 0;
+    color: var(--lightcolor2);
+    font-size: 0.7rem;
 }
 
 /*-----------------------------------------------Hover animation homepage------------------------------------------------------*/
