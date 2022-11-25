@@ -23,6 +23,12 @@ nav{
     height: 20%;
 }
 .addButton{
-    width: 100px;
+    margin: 0;
     padding: 0;
+    height: 100px;
+}
+.navAdd{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
