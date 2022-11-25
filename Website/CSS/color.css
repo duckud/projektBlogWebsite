@@ -1,0 +1,27 @@
+:root {
+    --lightcolor1: #fee3ec;
+    --lightcolor2: #f9c5d5;
+    --darkcolor1: #f999b7;
+    --darkcolor2: #f2789f;
+}
+body{
+    background-color: var(--lightcolor1);
+}
+
+.header{
+    background-color: var(--lightcolor2);
+    border-radius: 0.5%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--darkcolor2);
+}
+.navSite{
+    color: var(--darkcolor2);
+}
+.searchBar input{
+    height: 20%;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 4px;
+    border-color: var(--darkcolor2);
+}
