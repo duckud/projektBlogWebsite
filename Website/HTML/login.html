@@ -39,18 +39,17 @@
                     </div>
                 </div>
             </form>
-        <!-- </div>
-        <button data-hover="Let's get started!">
-            <div>Let's get started!</div>
-        </button>
-        <div id="register">
-            Don't have an account?
-            <a href="#">Register</a>
-        </div>
-        <div class="WithoutLogin">
-            want to continue without a login?
-            <a href="#">click here!</a>
-        </div> -->
     <div>
+        <script>
+            const form = document.getElementById("myform");
+            form.addEventListener("submit", function (ev) {
+                ev.preventDefault();
+                try {
+                    checkform();
+                } catch (error) {
+                    alert("Funktioniert nicht: ${error.message}");
+                }
+            });
+        </script>
 </body>
 </html>
