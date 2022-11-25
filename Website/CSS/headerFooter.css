@@ -13,6 +13,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .navSite{
     font-size: 140%;
@@ -20,4 +21,8 @@ nav{
 }
 .searchBar input{
     height: 20%;
+}
+.addButton{
+    width: 100px;
+    padding: 0;
 }
