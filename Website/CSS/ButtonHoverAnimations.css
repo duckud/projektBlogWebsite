@@ -80,6 +80,19 @@ button:hover:before {
     text-align: center;
 }
 
+.LoginBox .UserBox input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
 .LoginBox .UserBox label {
     position: relative;
     left: 0;
@@ -97,6 +110,47 @@ button:hover:before {
     left: 0;
     color: var(--lightcolor2);
     font-size: 0.7rem;
+}
+
+#Submit {
+    padding: 10px 20px;
+    color: #cbbddb;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid var(--darkcolor2);
+    margin: auto;
+}
+
+#Submit:hover {
+    background: var(--darkcolor2);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--darkcolor2), 0 0 25px var(--darkcolor2), 0 0 50px var(--darkcolor2), 0 0 100px var(--darkcolor2)
+}
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#Register {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--lightcolor1);
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#Register a {
+    margin: auto;
+    color: var(--darkcolor1);
+    text-decoration: none;
 }
 
 /*-----------------------------------------------Hover animation homepage------------------------------------------------------*/
