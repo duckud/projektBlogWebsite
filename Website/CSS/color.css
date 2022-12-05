@@ -34,10 +34,3 @@ body{
     border-width: 5px;
     border-color: var(--darkcolor2); 
 }
-.addButton{
-    border: none; /* Remove borders */
-    color: var(--darkcolor2); /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
-}
