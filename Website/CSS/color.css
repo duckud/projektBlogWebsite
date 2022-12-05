@@ -15,7 +15,7 @@ body{
     border-width: 5px;
     border-color: var(--darkcolor2);
 }
-.navSite{
+a{
     color: var(--darkcolor2);
 }
 .searchBar input{
@@ -33,4 +33,21 @@ body{
     border-radius: 5px;
     border-width: 5px;
     border-color: var(--darkcolor2); 
+}
+.AboutWebsite{
+    background-color: var(--lightcolor2);
+    border-color: var(--darkcolor2);
+}
+h2{
+    color: var(--darkcolor2);
+}
+p{
+    color: var(--darkcolor2);
+}
+.projectsHome{
+    background-color: var(--lightcolor2);
+    border-color: var(--darkcolor2); 
+}
+footer{
+    background-color: var(--lightcolor2);
 }

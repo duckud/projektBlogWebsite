@@ -154,3 +154,13 @@ button:hover:before {
 }
 
 /*-----------------------------------------------Hover animation homepage------------------------------------------------------*/
+.navSite {
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+.navSite:hover {
+    box-shadow: inset 140px 0 0 0 #f2789f;
+    color: white;
+  }
+.projectsHome:hover{
+    border-color:#e9467a;  
+}
