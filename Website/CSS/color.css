@@ -38,10 +38,7 @@ a{
     background-color: var(--lightcolor2);
     border-color: var(--darkcolor2);
 }
-h2{
-    color: var(--darkcolor2);
-}
-p{
+.projectsText{
     color: var(--darkcolor2);
 }
 .projectsHome{
@@ -50,4 +47,18 @@ p{
 }
 footer{
     background-color: var(--lightcolor2);
+    border-style: solid;
+    border-color: var(--darkcolor2);
+    border-width: 5px;
+    border-radius: 5px;
+}
+.sideBar{
+    background-color: var(--darkcolor1);
+}
+.sideBarText{
+    background-color: var(--darkcolor2);
+    color: var(--lightcolor1);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
 }

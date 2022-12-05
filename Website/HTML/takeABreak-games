@@ -49,18 +49,8 @@
         /></a>
       </nav>
     </header>
-    <div class="inputContainer">
-      <div class="sideBar">
-        <a class="sideBarText" href="../HTML/takeABreak-games">Games</a>
-        <a class="sideBarText" href="../HTML/takeABreak-music">Music</a>
-      </div>
-      <div class="gif">
-        <img src="../Bilder/BreakGif.gif" alt="Gif" />
-        <p>
-          GIF source
-          <a href="https://wallpaperaccess.com/aesthetic-gif"> here.</a>
-        </p>
-      </div>
+    <div class="sideBar">
+      <a href=""></a>
     </div>
     <footer>
       <a class="navSite" href="../HTML/aboutUs.html">About Us</a>
