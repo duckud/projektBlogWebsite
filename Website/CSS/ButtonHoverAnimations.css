@@ -167,3 +167,6 @@ button:hover:before {
 .sideBarText:hover{
     border-color:#e9467a;
 }
+.genres:hover{
+    color:#e9467a;
+}
