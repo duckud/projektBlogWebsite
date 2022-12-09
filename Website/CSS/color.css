@@ -4,21 +4,24 @@
     --darkcolor1: #f999b7;
     --darkcolor2: #f2789f;
 }
-body{
+
+body {
     background-color: var(--lightcolor1);
 }
 
-.header{
+.header {
     background-color: var(--lightcolor2);
     border-radius: 0.5%;
     border-style: solid;
     border-width: 5px;
     border-color: var(--darkcolor2);
 }
-a{
+
+a {
     color: var(--darkcolor2);
 }
-.searchBar input{
+
+.searchBar input {
     outline: none;
     border-style: solid;
     border-radius: 5px;
@@ -28,43 +31,52 @@ a{
     color: var(--darkcolor2);
 
 }
-.searchBar input:focus{
+
+.searchBar input:focus {
     border-style: solid;
     border-radius: 5px;
     border-width: 5px;
-    border-color: var(--darkcolor2); 
+    border-color: var(--darkcolor2);
 }
-.AboutWebsite{
+
+.AboutWebsite {
     background-color: var(--lightcolor2);
     border-color: var(--darkcolor2);
 }
-.projectsText{
+
+.projectsText {
     color: var(--darkcolor2);
 }
-.projectsHome{
+
+.projectsHome {
     background-color: var(--lightcolor2);
-    border-color: var(--darkcolor2); 
+    border-color: var(--darkcolor2);
 }
-footer{
+
+footer {
     background-color: var(--lightcolor2);
     border-style: solid;
     border-color: var(--darkcolor2);
     border-width: 5px;
     border-radius: 5px;
 }
-.sideBar{
+
+.sideBar {
     background-color: var(--darkcolor1);
 }
-.sideBarText{
+
+.sideBarText {
     background-color: var(--darkcolor2);
     color: var(--lightcolor1);
     border-style: solid;
-    border-width: 5px;
-    border-radius: 5px;
+    border-width: 0.3rem;
+    border-radius: 0.3rem;
 }
-.genres{
-    color: #fee3ec;
+
+.genres {
+    color: var(--lightcolor1);
 }
-.aboutText{
+
+.aboutText {
     color: var(--darkcolor2);
 }
