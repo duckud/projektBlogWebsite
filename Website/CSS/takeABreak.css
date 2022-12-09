@@ -28,6 +28,14 @@ body {
     top: 5%;
 }
 
+.genres {
+    margin: 7%;
+    width: 40%;
+    font-size: 1.8rem;
+    position: relative;
+    top: 5%;
+}
+
 .gif {
     width: 80%;
     position: relative;

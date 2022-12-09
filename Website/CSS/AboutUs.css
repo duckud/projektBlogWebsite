@@ -1,0 +1,12 @@
+.mainAsideContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    width: 20%;
+    height: 62rem;
+
+}
