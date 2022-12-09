@@ -47,7 +47,8 @@ a {
 }
 
 .profilePic {
-    height: 80px;
+    width: 5rem;
+    height: auto;
 }
 
 footer {

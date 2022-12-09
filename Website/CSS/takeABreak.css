@@ -44,8 +44,13 @@ img {
 }
 
 .placeholder {
-    display: flex;
-    width: 100%;
-    height: auto;
-    margin: 5%;
+    width: 80%;
+    height: 60rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 20%;
+
 }
