@@ -6,7 +6,7 @@ body {
 .inputContainer {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 20%;
 }
 
 .sideBar {
@@ -61,4 +61,17 @@ img {
     position: relative;
     left: 20%;
 
+}
+.entireInput{
+    display: flex;
+    flex-direction: row;
+}
+.musicPlaylists{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 5%;
+}
+.gifStart{
+    width: 60rem;
 }
